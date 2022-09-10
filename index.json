@@ -5,11 +5,11 @@
     ]
   },
   "branch": "main",
-  "is_contrib": false,
+  "is_contrib": true,
   "_links": {
-    "repository": "gitlab.reflet-digital.com/reflet/composer/symfony/flex-recipes",
-    "origin_template": "{package}:{version}@gitlab.reflet-digital.com/cyber/symfony-flex-recipes:master",
-    "recipe_template": "https://gitlab.reflet-digital.com/reflet/composer/symfony/flex-recipes/-/raw/main/{package_dotted}.{version}.json"
+    "repository": "github.com/volfield/flex-recipes",
+    "origin_template": "{package}:{version}@github.com/volfield/flex-recipes:main",
+    "recipe_template": "https://api.github.com/repos/volfield/flex-recipes/contents/{package_dotted}.{version}.json"
   }
 }
 
