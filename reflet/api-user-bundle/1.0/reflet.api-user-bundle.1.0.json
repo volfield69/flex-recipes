@@ -1,0 +1,29 @@
+{
+  "manifests": {
+    "reflet/api-user-bundle": {
+      "manifest": {
+        "bundles": {
+          "Reflet\\ApiUserBundle\\RefletApiUserBundle": [
+            "all"
+          ]
+        },
+        "copy-from-recipe": {
+          "config/": "%CONFIG_DIR%"
+        }
+      },
+      "files": {
+        "config/packages/reflet_api_user.yaml": {
+          "contents": [
+            "reflet_api_user:",
+            "    url: ",
+            "    username: ",
+            "    password: ",
+            ""
+          ],
+          "executable": false
+        }
+      },
+      "ref": "67b41d5ace867b8118820b44c642abc70494d9fa"
+    }
+  }
+}

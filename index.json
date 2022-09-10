@@ -1,0 +1,15 @@
+{
+  "recipes": {
+    "reflet/api-user-bundle": [
+      "1.0"
+    ]
+  },
+  "branch": "main",
+  "is_contrib": false,
+  "_links": {
+    "repository": "gitlab.reflet-digital.com/reflet/composer/symfony/flex-recipes",
+    "origin_template": "{package}:{version}@gitlab.reflet-digital.com/cyber/symfony-flex-recipes:master",
+    "recipe_template": "https://gitlab.reflet-digital.com/reflet/composer/symfony/flex-recipes/-/raw/main/{package_dotted}.{version}.json"
+  }
+}
+
