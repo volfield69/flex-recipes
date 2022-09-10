@@ -9,7 +9,10 @@
         },
         "copy-from-recipe": {
           "config/": "%CONFIG_DIR%"
-        }
+        },
+        "aliases": [
+          "api-user"
+        ]
       },
       "files": {
         "config/packages/reflet_api_user.yaml": {
